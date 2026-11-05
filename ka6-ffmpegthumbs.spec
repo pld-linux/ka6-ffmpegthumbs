@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.2
+%define		kdeappsver	26.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		ffmpegthumbs
 Summary:	Ffmpegthumbs
 Name:		ka6-%{kaname}
-Version:	26.08.2
-Release:	4
+Version:	26.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	15cd15b2f3c089a78b072d24c8c8a231
+# Source0-md5:	72515a6366036c402155bdc0178d592a
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.20
